@@ -1,0 +1,53 @@
+{
+  "id": "chromium%2Fsrc~main~Ief8dade4c2d578c5eb1973f3a09d148fd05bea42",
+  "project": "chromium/src",
+  "branch": "main",
+  "attention_set": {
+    "1274728": {
+      "account": {
+        "_account_id": 1274728
+      },
+      "last_update": "2021-10-05 17:24:17.000000000",
+      "reason": "<GERRIT_ACCOUNT_1128439> replied on the change",
+      "reason_account": {
+        "_account_id": 1128439
+      }
+    },
+    "1128439": {
+      "account": {
+        "_account_id": 1128439
+      },
+      "last_update": "2021-10-07 00:29:10.000000000",
+      "reason": "<GERRIT_ACCOUNT_1115863> replied on the change",
+      "reason_account": {
+        "_account_id": 1115863
+      }
+    }
+  },
+  "hashtags": [
+    "net"
+  ],
+  "change_id": "Ief8dade4c2d578c5eb1973f3a09d148fd05bea42",
+  "subject": "net: Remove CHECKs from winsock_util",
+  "status": "NEW",
+  "created": "2021-10-04 07:36:17.000000000",
+  "updated": "2021-10-07 00:29:10.000000000",
+  "submit_type": "REBASE_ALWAYS",
+  "insertions": 4,
+  "deletions": 38,
+  "total_comment_count": 24,
+  "unresolved_comment_count": 1,
+  "has_review_started": true,
+  "meta_rev_id": "240046929534c40c13f67115967ee00b572f07ba",
+  "_number": 3197866,
+  "owner": {
+    "_account_id": 1115863
+  },
+  "requirements": [
+    {
+      "status": "OK",
+      "fallback_text": "Code Owners",
+      "type": "code-owners"
+    }
+  ]
+}

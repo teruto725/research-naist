@@ -1,0 +1,895 @@
+{
+  "/PATCHSET_LEVEL": [
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "5a59f108cc55e7241a118caabfc2d16813a911c2",
+      "unresolved": false,
+      "patch_set": 3,
+      "id": "73c803e3_f2027d98",
+      "updated": "2021-10-04 16:14:31.000000000",
+      "message": "Thanks for working on this.",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "bce4b7532905246e97671bdfc67e27f4d1d18572",
+      "unresolved": false,
+      "patch_set": 3,
+      "id": "603e925d_5976bb9d",
+      "updated": "2021-10-04 09:32:56.000000000",
+      "message": "ericorth@: PTAL\n",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "1f34fa23d73e029960900dde55e9a11dd7be30fd",
+      "unresolved": false,
+      "patch_set": 4,
+      "id": "7a075904_fbe2c5f9",
+      "updated": "2021-10-05 02:09:00.000000000",
+      "message": "One more thought...",
+      "commit_id": "5d3e29ea5fb8115bf933f0a2d8cf50deaad8a623"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "1ed9ebc5b895436fbf85af5011a888588932622d",
+      "unresolved": false,
+      "patch_set": 4,
+      "id": "46236769_e4edd2b6",
+      "updated": "2021-10-05 00:19:40.000000000",
+      "message": "Thank you for review!",
+      "commit_id": "5d3e29ea5fb8115bf933f0a2d8cf50deaad8a623"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "240046929534c40c13f67115967ee00b572f07ba",
+      "unresolved": false,
+      "patch_set": 8,
+      "id": "2b228d37_41c8dce8",
+      "updated": "2021-10-07 00:29:10.000000000",
+      "message": "Thank you!",
+      "commit_id": "3313f675fcbdbb794993de93463df49a25906975"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "fdfaace83800be6996f5f7c5c209c00b4e610d41",
+      "unresolved": false,
+      "patch_set": 8,
+      "id": "02a9bb30_d8d612b7",
+      "updated": "2021-10-06 23:38:48.000000000",
+      "message": "lgtm with one nit/question",
+      "commit_id": "3313f675fcbdbb794993de93463df49a25906975"
+    }
+  ],
+  "net/base/winsock_util.cc": [
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "5a59f108cc55e7241a118caabfc2d16813a911c2",
+      "unresolved": true,
+      "patch_set": 3,
+      "id": "54515329_8b3a21a6",
+      "line": 21,
+      "updated": "2021-10-04 16:14:31.000000000",
+      "message": "The WASResetEvent has to be outside of the DCHECK or else it won't be executed in release builds.",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "1f34fa23d73e029960900dde55e9a11dd7be30fd",
+      "unresolved": false,
+      "patch_set": 3,
+      "id": "5faa7b0c_55e791ce",
+      "line": 21,
+      "in_reply_to": "2c3eb0c4_92bb15ae",
+      "updated": "2021-10-05 02:09:00.000000000",
+      "message": "Done",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "1ed9ebc5b895436fbf85af5011a888588932622d",
+      "unresolved": true,
+      "patch_set": 3,
+      "id": "2c3eb0c4_92bb15ae",
+      "line": 21,
+      "in_reply_to": "54515329_8b3a21a6",
+      "updated": "2021-10-05 00:19:40.000000000",
+      "message": "You're right, done.",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "1f34fa23d73e029960900dde55e9a11dd7be30fd",
+      "unresolved": true,
+      "patch_set": 4,
+      "id": "244e44c7_27440bfc",
+      "line": 11,
+      "updated": "2021-10-05 02:09:00.000000000",
+      "message": "Should this function be deleted? It potentially changes the state of the event, so it could potentially cause bugs. Now is the time to delete it, when we have a CHECK to prove that it is a NOP. In six months it will be undeletable.",
+      "commit_id": "5d3e29ea5fb8115bf933f0a2d8cf50deaad8a623"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "9c77ab07f6f62eb2b767447dd173fbfe6d83e016",
+      "unresolved": false,
+      "patch_set": 4,
+      "id": "e4708b12_7b14b99e",
+      "line": 11,
+      "in_reply_to": "244e44c7_27440bfc",
+      "updated": "2021-10-05 06:37:29.000000000",
+      "message": "Yeah, I agree. Done.",
+      "commit_id": "5d3e29ea5fb8115bf933f0a2d8cf50deaad8a623"
+    }
+  ],
+  "net/socket/tcp_socket_win.cc": [
+    {
+      "author": {
+        "_account_id": 1274728,
+        "name": "Eric Orth",
+        "email": "ericorth@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+            "height": 120
+          }
+        ]
+      },
+      "change_message_id": "d5b27eb0d622721119299f9d392016bde3695d6c",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "5526d21c_61825e39",
+      "line": 566,
+      "range": {
+        "start_line": 566,
+        "start_character": 18,
+        "end_line": 566,
+        "end_character": 37
+      },
+      "updated": "2021-10-05 16:35:22.000000000",
+      "message": "Which include is providing this? Should we explicitly include something more specific?",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "6737b129147cec4957dac366dad6b2609ae94b5a",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "8ad22cd7_83198ced",
+      "line": 566,
+      "range": {
+        "start_line": 566,
+        "start_character": 18,
+        "end_line": 566,
+        "end_character": 37
+      },
+      "in_reply_to": "5526d21c_61825e39",
+      "updated": "2021-10-05 17:24:17.000000000",
+      "message": "Good point. We should explicitly include windows.h, and use the :: prefix on this function.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "3c4cd7388d1a8656e5c13bb639fa0a2d9c497de6",
+      "unresolved": false,
+      "patch_set": 6,
+      "id": "dfeed244_9ec09f32",
+      "line": 566,
+      "range": {
+        "start_line": 566,
+        "start_character": 18,
+        "end_line": 566,
+        "end_character": 37
+      },
+      "in_reply_to": "8ad22cd7_83198ced",
+      "updated": "2021-10-06 03:50:50.000000000",
+      "message": "Done",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1274728,
+        "name": "Eric Orth",
+        "email": "ericorth@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+            "height": 120
+          }
+        ]
+      },
+      "change_message_id": "d5b27eb0d622721119299f9d392016bde3695d6c",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "f1606386_a4bc1e49",
+      "line": 567,
+      "range": {
+        "start_line": 567,
+        "start_character": 2,
+        "end_line": 567,
+        "end_character": 11
+      },
+      "updated": "2021-10-05 16:35:22.000000000",
+      "message": "Nit: Include check_op.h.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "3c4cd7388d1a8656e5c13bb639fa0a2d9c497de6",
+      "unresolved": false,
+      "patch_set": 6,
+      "id": "3a72021d_6f3c9905",
+      "line": 567,
+      "range": {
+        "start_line": 567,
+        "start_character": 2,
+        "end_line": 567,
+        "end_character": 11
+      },
+      "in_reply_to": "f1606386_a4bc1e49",
+      "updated": "2021-10-06 03:50:50.000000000",
+      "message": "Done",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "fdfaace83800be6996f5f7c5c209c00b4e610d41",
+      "unresolved": true,
+      "patch_set": 8,
+      "id": "aada7973_b356fbea",
+      "line": 16,
+      "updated": "2021-10-06 23:38:48.000000000",
+      "message": "Is this still needed?",
+      "commit_id": "3313f675fcbdbb794993de93463df49a25906975"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "240046929534c40c13f67115967ee00b572f07ba",
+      "unresolved": true,
+      "patch_set": 8,
+      "id": "2fcfc2ec_66fa5e5a",
+      "line": 16,
+      "in_reply_to": "aada7973_b356fbea",
+      "updated": "2021-10-07 00:29:10.000000000",
+      "message": "Yes, this file contains some DCHECK_EQ so I think it's worth adding this.",
+      "commit_id": "3313f675fcbdbb794993de93463df49a25906975"
+    }
+  ],
+  "net/socket/udp_socket_win.cc": [
+    {
+      "author": {
+        "_account_id": 1274728,
+        "name": "Eric Orth",
+        "email": "ericorth@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+            "height": 120
+          }
+        ]
+      },
+      "change_message_id": "d5b27eb0d622721119299f9d392016bde3695d6c",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "7ee5b0b7_a6f5ad12",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "updated": "2021-10-05 16:35:22.000000000",
+      "message": "Same question about includes...",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "23e57401d55b02e12ce2417e7c751a42f1a07801",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "a061729d_0a712f22",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "in_reply_to": "46442578_1b93bb9a",
+      "updated": "2021-10-06 23:00:03.000000000",
+      "message": "Removing sounds good to me as I'm not very familiar with windows and you are an expert. Done.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "3c4cd7388d1a8656e5c13bb639fa0a2d9c497de6",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "a3712c6a_d0b7dc4d",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "in_reply_to": "6e696e5c_79543810",
+      "updated": "2021-10-06 03:50:50.000000000",
+      "message": "Included windows.h\n\nI'm not sure we can remove this call so I kept it.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "6737b129147cec4957dac366dad6b2609ae94b5a",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "6e696e5c_79543810",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "in_reply_to": "7ee5b0b7_a6f5ad12",
+      "updated": "2021-10-05 17:24:17.000000000",
+      "message": "Windows.h ideally, which gets pulled in by winsock2.h, which is arguably okay?\n\n:: prefix ideally. But I'm not sure we should do this call at all. We are using it to check that the event is not signaled - do we still want to do that at all?\n\nThe risk is that if the event _is_ signaled then (depending on how the event is created) this might un-signal it.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "fdfaace83800be6996f5f7c5c209c00b4e610d41",
+      "unresolved": false,
+      "patch_set": 6,
+      "id": "849e3348_afb266fe",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "in_reply_to": "a061729d_0a712f22",
+      "updated": "2021-10-06 23:38:48.000000000",
+      "message": "Thanks. And I will take responsibility for that choice.\n\nI double-checked WSACreateEvent (creator of WSAEvent objects) and it confirms that it creates manual reset events. This means that the WaitForSingleObject calls would, if left in, be NOPs. Harmless but confusing and misleading.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "change_message_id": "617896ed8b75399384d5a56d3953fe7d1049f435",
+      "unresolved": true,
+      "patch_set": 6,
+      "id": "46442578_1b93bb9a",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "in_reply_to": "a3712c6a_d0b7dc4d",
+      "updated": "2021-10-06 17:18:41.000000000",
+      "message": "I think that we either need to articulate why we are keeping the ::WaitForSingleObject call here (and in net/socket/tcp_socket_win.cc) or else remove them. I cannot articulate a reason, and as a Windows developer those calls feel like a code smell now. But, I am not an OWNER or networking expert. Is there someone else who could explain why to keep them or agree on removal?",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    }
+  ]
+}
