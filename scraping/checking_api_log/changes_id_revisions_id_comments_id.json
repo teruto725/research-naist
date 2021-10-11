@@ -1,0 +1,38 @@
+{
+  "author": {
+    "_account_id": 1274728,
+    "name": "Eric Orth",
+    "email": "ericorth@chromium.org",
+    "avatars": [
+      {
+        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+        "height": 32
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+        "height": 56
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+        "height": 100
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+        "height": 120
+      }
+    ]
+  },
+  "unresolved": true,
+  "id": "f1606386_a4bc1e49",
+  "path": "net/socket/tcp_socket_win.cc",
+  "line": 567,
+  "range": {
+    "start_line": 567,
+    "start_character": 2,
+    "end_line": 567,
+    "end_character": 11
+  },
+  "updated": "2021-10-05 16:35:22.000000000",
+  "message": "Nit: Include check_op.h.",
+  "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+}

@@ -134,6 +134,71 @@
     },
     {
       "author": {
+        "_account_id": 1274728,
+        "name": "Eric Orth",
+        "email": "ericorth@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+            "height": 120
+          }
+        ]
+      },
+      "change_message_id": "3855159fef5f266f4ac15a01e30a886bea513476",
+      "unresolved": false,
+      "patch_set": 8,
+      "id": "f814e352_f23820dc",
+      "updated": "2021-10-07 16:10:33.000000000",
+      "message": "LGTM.",
+      "commit_id": "3313f675fcbdbb794993de93463df49a25906975"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "change_message_id": "c3f3677d0c552c8f27383ecdce190562952d0a6a",
+      "unresolved": false,
+      "patch_set": 8,
+      "id": "1a26a0e5_2498ade2",
+      "updated": "2021-10-07 22:54:19.000000000",
+      "message": "Thank you for reviews!",
+      "commit_id": "3313f675fcbdbb794993de93463df49a25906975"
+    },
+    {
+      "author": {
         "_account_id": 1115863,
         "name": "Kenichi Ishibashi",
         "email": "bashi@chromium.org",
@@ -807,6 +872,46 @@
       "in_reply_to": "7ee5b0b7_a6f5ad12",
       "updated": "2021-10-05 17:24:17.000000000",
       "message": "Windows.h ideally, which gets pulled in by winsock2.h, which is arguably okay?\n\n:: prefix ideally. But I'm not sure we should do this call at all. We are using it to check that the event is not signaled - do we still want to do that at all?\n\nThe risk is that if the event _is_ signaled then (depending on how the event is created) this might un-signal it.",
+      "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+    },
+    {
+      "author": {
+        "_account_id": 1274728,
+        "name": "Eric Orth",
+        "email": "ericorth@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+            "height": 120
+          }
+        ]
+      },
+      "change_message_id": "3855159fef5f266f4ac15a01e30a886bea513476",
+      "unresolved": false,
+      "patch_set": 6,
+      "id": "cfc9e3e3_0ff644c5",
+      "line": 775,
+      "range": {
+        "start_line": 775,
+        "start_character": 18,
+        "end_line": 775,
+        "end_character": 37
+      },
+      "in_reply_to": "849e3348_afb266fe",
+      "updated": "2021-10-07 16:10:33.000000000",
+      "message": "I am fine with removing the WaitForSingleObject() calls entirely.  Because the timeout interval was set to 0, they shouldn't have had any side effects and were just serving the purpose of getting the state for the assertions.",
       "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
     },
     {

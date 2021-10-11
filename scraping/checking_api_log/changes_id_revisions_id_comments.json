@@ -1,0 +1,166 @@
+{
+  "/PATCHSET_LEVEL": [
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "unresolved": false,
+      "id": "73c803e3_f2027d98",
+      "updated": "2021-10-04 16:14:31.000000000",
+      "message": "Thanks for working on this.",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "unresolved": false,
+      "id": "603e925d_5976bb9d",
+      "updated": "2021-10-04 09:32:56.000000000",
+      "message": "ericorth@: PTAL\n",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    }
+  ],
+  "net/base/winsock_util.cc": [
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "unresolved": true,
+      "id": "54515329_8b3a21a6",
+      "line": 21,
+      "updated": "2021-10-04 16:14:31.000000000",
+      "message": "The WASResetEvent has to be outside of the DCHECK or else it won't be executed in release builds.",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1128439,
+        "name": "Bruce Dawson",
+        "email": "brucedawson@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "Pacific Time"
+      },
+      "unresolved": false,
+      "id": "5faa7b0c_55e791ce",
+      "line": 21,
+      "in_reply_to": "2c3eb0c4_92bb15ae",
+      "updated": "2021-10-05 02:09:00.000000000",
+      "message": "Done",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    },
+    {
+      "author": {
+        "_account_id": 1115863,
+        "name": "Kenichi Ishibashi",
+        "email": "bashi@chromium.org",
+        "avatars": [
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s32-p/photo.jpg",
+            "height": 32
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s56-p/photo.jpg",
+            "height": 56
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s100-p/photo.jpg",
+            "height": 100
+          },
+          {
+            "url": "https://lh5.googleusercontent.com/-IjeSdxbqNPw/AAAAAAAAAAI/AAAAAAAAAAA/UBkHcg_hSm4/s120-p/photo.jpg",
+            "height": 120
+          }
+        ],
+        "status": "OOO every Wed"
+      },
+      "unresolved": true,
+      "id": "2c3eb0c4_92bb15ae",
+      "line": 21,
+      "in_reply_to": "54515329_8b3a21a6",
+      "updated": "2021-10-05 00:19:40.000000000",
+      "message": "You're right, done.",
+      "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
+    }
+  ]
+}

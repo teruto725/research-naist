@@ -1,0 +1,23 @@
+{
+  "commit": "958b2ab40b8d6df640a39496054740b431045f55",
+  "parents": [
+    {
+      "commit": "a8b8fa786aebafce6fa94feebdf7ec2e18a9f75b",
+      "subject": "Roll src-internal from b8344e00b047 to cfaa42cb4350 (43 revisions)"
+    }
+  ],
+  "author": {
+    "name": "Kenichi Ishibashi",
+    "email": "bashi@chromium.org",
+    "date": "2021-10-04 08:12:13.000000000",
+    "tz": 540
+  },
+  "committer": {
+    "name": "Kenichi Ishibashi",
+    "email": "bashi@chromium.org",
+    "date": "2021-10-04 08:12:13.000000000",
+    "tz": 540
+  },
+  "subject": "net: Remove CHECKs from winsock_util",
+  "message": "net: Remove CHECKs from winsock_util\n\nBug: 1254429\nChange-Id: Ief8dade4c2d578c5eb1973f3a09d148fd05bea42"
+}
