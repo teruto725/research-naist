@@ -1,38 +1,33 @@
 {
   "author": {
-    "_account_id": 1274728,
-    "name": "Eric Orth",
-    "email": "ericorth@chromium.org",
+    "_account_id": 1128439,
+    "name": "Bruce Dawson",
+    "email": "brucedawson@chromium.org",
     "avatars": [
       {
-        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s32-p/photo.jpg",
+        "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s32-p/photo.jpg",
         "height": 32
       },
       {
-        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s56-p/photo.jpg",
+        "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s56-p/photo.jpg",
         "height": 56
       },
       {
-        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s100-p/photo.jpg",
+        "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s100-p/photo.jpg",
         "height": 100
       },
       {
-        "url": "https://lh3.googleusercontent.com/-7cKVeA1SC5o/AAAAAAAAAAI/AAAAAAAAAAA/DeyjnIyJBmU/s120-p/photo.jpg",
+        "url": "https://lh5.googleusercontent.com/-MC9DTGaFqcI/AAAAAAAAAAI/AAAAAAAAAAA/Ixzy9FIcwGE/s120-p/photo.jpg",
         "height": 120
       }
-    ]
+    ],
+    "status": "Pacific Time"
   },
   "unresolved": true,
-  "id": "f1606386_a4bc1e49",
-  "path": "net/socket/tcp_socket_win.cc",
-  "line": 567,
-  "range": {
-    "start_line": 567,
-    "start_character": 2,
-    "end_line": 567,
-    "end_character": 11
-  },
-  "updated": "2021-10-05 16:35:22.000000000",
-  "message": "Nit: Include check_op.h.",
-  "commit_id": "0f793ba24333ca055f6a0b14eb5298a7d6b45323"
+  "id": "54515329_8b3a21a6",
+  "path": "net/base/winsock_util.cc",
+  "line": 21,
+  "updated": "2021-10-04 16:14:31.000000000",
+  "message": "The WASResetEvent has to be outside of the DCHECK or else it won't be executed in release builds.",
+  "commit_id": "958b2ab40b8d6df640a39496054740b431045f55"
 }

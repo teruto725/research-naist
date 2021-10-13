@@ -18,7 +18,7 @@ response = requests.get(uri)
 json_parser(response.content)
 
 # dataframeに変換するメソッド
-def convertResponsetoDF(response):
+def convertResponseToDF(response):
   content = response.content.decode("utf-8").split("\n")[1]
   di = json.loads(content.split("\n")[0])
   df = pd.DataFrame(di)
