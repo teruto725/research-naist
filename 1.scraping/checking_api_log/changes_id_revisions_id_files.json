@@ -1,0 +1,31 @@
+{
+  "net/base/winsock_util.cc": {
+    "lines_inserted": 3,
+    "lines_deleted": 31,
+    "size_delta": -924,
+    "size": 577
+  },
+  "/COMMIT_MSG": {
+    "status": "A",
+    "lines_inserted": 10,
+    "size_delta": 343,
+    "size": 343
+  },
+  "net/socket/tcp_socket_win.cc": {
+    "lines_inserted": 3,
+    "lines_deleted": 2,
+    "size_delta": 14,
+    "size": 33050
+  },
+  "net/base/winsock_util.h": {
+    "lines_deleted": 3,
+    "size_delta": -111,
+    "size": 1010
+  },
+  "net/socket/udp_socket_win.cc": {
+    "lines_inserted": 7,
+    "lines_deleted": 3,
+    "size_delta": 146,
+    "size": 42787
+  }
+}

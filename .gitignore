@@ -1,2 +1,4 @@
 gerrit/
 venv/
+1.scraping/scraped_files/
+2.preprocessing/files/
