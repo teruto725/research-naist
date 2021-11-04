@@ -23,6 +23,7 @@ def create_review_df():
   diff_df["has_diff"] = diff_df["content"].apply(lambda x: len(x) != 1) #diffを持っているか
   diff_df["is_java"]  = diff_df["meta_a.name"].str.contains(".java") # javaかどうか
   df_temp = diff_df[diff_df["is_java"] & diff_df["has_diff"] ] 
+  comments_df = comments_df[diff_df[""]]
   # merge
   comments_df = comments_df.rename(columns={'id': 'comments_id'})
   merge_df = pd.merge(comments_df, df_temp)
