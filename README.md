@@ -4,4 +4,5 @@
 
 ## ディレクトリ
 
-- scraping : スクレイピングの作業場
+- 1.scraping : スクレイピングの作業場
+- 2.preprocessing: 前処理
