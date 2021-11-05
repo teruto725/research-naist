@@ -5,3 +5,5 @@ venv/
 2.preprocessing/methods/
 src2abs/
 code_review/
+.ipynb_checkpoints
+lizard/
