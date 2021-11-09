@@ -1,9 +1,10 @@
 gerrit/
 venv/
-1.scraping/scraped_files/
+1.crawling/scraped_files/
 2.preprocessing/files/
 2.preprocessing/methods/
 src2abs/
 code_review/
 .ipynb_checkpoints
 lizard/
+masked_methods/

@@ -1,3 +1,5 @@
+# contentからbeforeとafterのjavaファイルを切り出してくる作業
+
 import pandas as pd
 
 def separate_before_after(comment_id,contents):
@@ -26,5 +28,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
-
