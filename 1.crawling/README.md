@@ -27,7 +27,7 @@
 
 # 各データのカラム
 
-- comments
+- comments api のバグで重複データ有り
 
 ```
  0   index                  30802 non-null  int64
@@ -58,7 +58,7 @@
  25  tag                    771 non-null    object
 ```
 
-- diff
+- diff それに伴って重複が発生している
 
 ```
  0   change_type          28750 non-null  object

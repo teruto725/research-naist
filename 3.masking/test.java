@@ -1,0 +1,1 @@
+public VAR_1 ( long VAR_2 , Context context , TYPE_1 VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = context ; VAR_6 = new TYPE_2 ( context , this , VAR_3 ) ; }
