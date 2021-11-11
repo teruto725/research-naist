@@ -22,10 +22,41 @@
 - GET changes/:id/comments/:id
   - changes.id と comments.id から comments.path を取得
 - GET changes/:id/revisions/:id/files/:id/diff
-  - changes.id と comments.commit(revisions.id)と comments.path(files.id)から diff を取得。diff が存在しないものは 404 が帰ってくるので 200 以外は除外する。
+  - changes.id と comments.commit_id(revisions.id)と comments.path(files.id)から diff を取得。diff が存在しないものは 404 が帰ってくるので 200 以外は除外する。
 - 最終的に changes.id が主キーのテーブル、comments.id が主キーのテーブル、revisions.id と files.id が主キーのテーブルが出来上がる。
 
 # 各データのカラム
+
+- comments
+
+```
+ 0   index                  30802 non-null  int64
+ 1   change_message_id      30802 non-null  object
+ 2   unresolved             30802 non-null  bool
+ 3   patch_set              30802 non-null  int64
+ 4   id                     30802 non-null  object
+ 5   updated                30802 non-null  object
+ 6   message                30802 non-null  object
+ 7   commit_id              30802 non-null  object コミットID=revisionID
+ 8   author._account_id     30802 non-null  int64
+ 9   author.name            30802 non-null  object
+ 10  author.email           30794 non-null  object
+ 11  author.avatars         30802 non-null  object
+ 12  author.status          3705 non-null   object
+ 13  in_reply_to            16016 non-null  object
+ 14  change_id              30802 non-null  object
+ 15  path                   30802 non-null  object
+ 16  line                   30802 non-null  float64
+ 17  range.start_line       18884 non-null  float64
+ 18  range.start_character  18884 non-null  float64
+ 19  range.end_line         18884 non-null  float64
+ 20  range.end_character    18884 non-null  float64
+ 21  side                   432 non-null    object
+ 22  author.username        190 non-null    object
+ 23  author.display_name    828 non-null    object
+ 24  author.inactive        213 non-null    object
+ 25  tag                    771 non-null    object
+```
 
 - diff
 

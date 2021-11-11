@@ -1,20 +1,6 @@
 import pandas as pd
 import pickle
-def separate_before_after(comment_id,contents):
-  before = list()
-  after = list()
-  for content in contents:
-    if "a" in content:
-      after.extend(content["a"])
-    elif "b" in content:
-      before.extend(content["b"])
-    elif "ab" in content:
-      after.extend(content["ab"])
-      before.extend(content["ab"])
-  with open("./files/"+comment_id+"_before.java","w", encoding="utf-8") as f:
-    f.write("\n".join(before))
-  with open("./files/"+comment_id+"_after.java","w", encoding="utf-8") as f:
-    f.write("\n".join(after))
+
 
 
 def create_review_df():
@@ -37,5 +23,6 @@ def create_review_df():
 
 if __name__ == "__main__":
   create_review_df()
+  
 
 

@@ -1,7 +1,7 @@
 gerrit/
 venv/
 1.crawling/scraped_files/
-2.preprocessing/files/
+2.preprocessing/java_files/
 2.preprocessing/methods/
 src2abs/
 code_review/
