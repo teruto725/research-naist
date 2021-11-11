@@ -34,7 +34,7 @@
 ## preprocessing 手順
 
 1. いらないカラムを drop する（処理高速化）
-1. revision 内でコメントが単一のもののみを抽出する。
+1. revision 内でコメントが単一のもののみを抽出する。(これはスキップした)
 1. java ファイルに対する diff のみを抽出する。
 1. diff の content が無いものは削除
 1. diff と comment をマージ

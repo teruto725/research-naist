@@ -10,4 +10,5 @@ lizard/
 masked_methods/
 1.crawling/trash/
 2.preprocessing/trash/
+3.masking/trash/
 .DS_Store
