@@ -26,5 +26,5 @@ src2abs ライブラリを使ってマスキングを行う。
 
 ## 作業の流れ
 
-1. src2abs を実行して masked_content_before.java と masked_content_after.java, masked_content_before.map を生成する。map は filepath_masked.map で./map_files/に保管する。
+1. src2abs を実行して masked_content_before.java と masked_content_after.java, masked_content_before.map を生成する。全部./masked_files に保管する.
 1. ./map_files/を使って masked_message を生成する。

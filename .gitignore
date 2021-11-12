@@ -11,4 +11,5 @@ masked_methods/
 1.crawling/trash/
 2.preprocessing/trash/
 3.masking/trash/
+3.masking/masked_files/
 .DS_Store
