@@ -9,6 +9,7 @@ code_review/
 lizard/
 masked_methods/
 1.crawling/trash/
+1.crawling/crawl_db.sqlite3
 2.preprocessing/trash/
 3.masking/trash/
 3.masking/masked_files/
