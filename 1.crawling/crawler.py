@@ -75,16 +75,14 @@ def crawling_comments(change_ids):
   df = df.loc[:,["change_message_id","unresolved","patch_set","id","message","commit_id","in_reply_to","change_id","path","line","range.start_line","range.end_line","repo_name"]]
   with sql.connect("crawl_db.sqlite3") as conn:
     df.to_sql("COMMENT", con=conn, if_exists='append')
-
-  del df
+  return df
 
 
 """
 commentsからdiffを収集する
 
 """
-def crawling_diffs():
-  comments_df = pd.read_pickle("./scraping/scraped_files/opendev/comments.pkl")
+def crawling_diffs(comments_df):
 
   df = None
   rows = comments_df.loc[:,["change_id","commit_id","path","patch_set","id"]].values
@@ -124,6 +122,6 @@ if __name__ == "__main__":
   print("crawling_changes")
   change_ids = crawling_changes()
   print("crawling_commnets")
-  crawling_comments(change_ids)
+  comments_df = crawling_comments(change_ids)
   print("crawling_diffs")
-  crawling_diffs()
+  crawling_diffs(comments_df)

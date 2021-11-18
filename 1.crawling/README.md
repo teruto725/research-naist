@@ -3,14 +3,13 @@
 # 1.Crawling
 
 第一フェーズとしてクローリングを行う。
-クローリングしてきたファイルは crawled_files に保存していく
+クローリングしてきたファイルは sqlite に保存していく
 
 ## 成果物
 
-- comments.csv
-  - comments の基本情報を取得する。
-- diff.csv
-  - diff の content（ファイルの差分文字列情報）を取得する
+- crawl_db.sqlite3
+  - DIFF: diff を格納するテーブル
+  - COMMENT: comment を格納するテーブル
 
 ## クローリングの流れ
 
