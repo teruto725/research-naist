@@ -1,0 +1,139 @@
+{
+  "meta_a": {
+    "name": "net/base/winsock_util.cc",
+    "content_type": "text/x-c",
+    "lines": 50,
+    "web_links": [
+      {
+        "name": "browse",
+        "url": "https://chromium.googlesource.com/chromium/src/+/a8b8fa786aebafce6fa94feebdf7ec2e18a9f75b/net/base/winsock_util.cc",
+        "target": "_blank"
+      }
+    ]
+  },
+  "meta_b": {
+    "name": "net/base/winsock_util.cc",
+    "content_type": "text/x-c",
+    "lines": 26,
+    "web_links": [
+      {
+        "name": "browse",
+        "url": "https://chromium.googlesource.com/chromium/src/+/refs/changes/66/3197866/3/net/base/winsock_util.cc",
+        "target": "_blank"
+      }
+    ]
+  },
+  "change_type": "MODIFIED",
+  "diff_header": [
+    "diff --git a/net/base/winsock_util.cc b/net/base/winsock_util.cc",
+    "index 0aefe66..d4e702c 100644",
+    "--- a/net/base/winsock_util.cc",
+    "+++ b/net/base/winsock_util.cc"
+  ],
+  "content": [
+    {
+      "ab": [
+        "// Copyright (c) 2011 The Chromium Authors. All rights reserved.",
+        "// Use of this source code is governed by a BSD-style license that can be",
+        "// found in the LICENSE file.",
+        "",
+        "#include \"net/base/winsock_util.h\"",
+        ""
+      ]
+    },
+    {
+      "a": [
+        "#include \"base/check.h\"",
+        "#include \"base/compiler_specific.h\"",
+        "#include \"base/debug/alias.h\"",
+        "#include \"net/base/net_errors.h\""
+      ],
+      "b": [
+        "#include \"base/check_op.h\""
+      ]
+    },
+    {
+      "ab": [
+        "",
+        "namespace net {",
+        ""
+      ]
+    },
+    {
+      "a": [
+        "namespace {",
+        "",
+        "// Pass the important values as function arguments so that they are available",
+        "// in crash dumps. Disable inlining so that an actual function call is made and",
+        "// disable tail calls so that the parent function is on the call stack.",
+        "NOINLINE void NOT_TAIL_CALLED CheckEventWait(WSAEVENT hEvent,",
+        "                                             DWORD wait_rv,",
+        "                                             DWORD expected) {",
+        "  if (wait_rv != expected) {",
+        "    DWORD err = ERROR_SUCCESS;",
+        "    if (wait_rv == WAIT_FAILED)",
+        "      err = GetLastError();",
+        "    base::debug::Alias(&err);",
+        "    CHECK(false);  // Crash.",
+        "  }",
+        "}",
+        "",
+        "}  // namespace",
+        ""
+      ]
+    },
+    {
+      "ab": [
+        "void AssertEventNotSignaled(WSAEVENT hEvent) {",
+        "  DWORD wait_rv = WaitForSingleObject(hEvent, 0);"
+      ]
+    },
+    {
+      "a": [
+        "  CheckEventWait(hEvent, wait_rv, WAIT_TIMEOUT);"
+      ],
+      "b": [
+        "  DCHECK_EQ(wait_rv, static_cast<DWORD>(WAIT_TIMEOUT));"
+      ]
+    },
+    {
+      "ab": [
+        "}",
+        "",
+        "bool ResetEventIfSignaled(WSAEVENT hEvent) {"
+      ]
+    },
+    {
+      "a": [
+        "  // TODO(wtc): Remove the CHECKs after enough testing."
+      ]
+    },
+    {
+      "ab": [
+        "  DWORD wait_rv = WaitForSingleObject(hEvent, 0);",
+        "  if (wait_rv == WAIT_TIMEOUT)",
+        "    return false;  // The event object is not signaled."
+      ]
+    },
+    {
+      "a": [
+        "  CheckEventWait(hEvent, wait_rv, WAIT_OBJECT_0);",
+        "  BOOL ok = WSAResetEvent(hEvent);",
+        "  CHECK(ok);"
+      ],
+      "b": [
+        "  DCHECK_EQ(wait_rv, static_cast<DWORD>(WAIT_OBJECT_0));",
+        "  DCHECK(WSAResetEvent(hEvent));"
+      ]
+    },
+    {
+      "ab": [
+        "  return true;",
+        "}",
+        "",
+        "}  // namespace net",
+        ""
+      ]
+    }
+  ]
+}

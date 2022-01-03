@@ -1,0 +1,66 @@
+{
+  "meta_a": {
+    "name": "net/base/winsock_util.cc",
+    "content_type": "text/x-c",
+    "lines": 27,
+    "web_links": [
+      {
+        "name": "browse",
+        "url": "https://chromium.googlesource.com/chromium/src/+/refs/changes/66/3197866/4/net/base/winsock_util.cc",
+        "target": "_blank"
+      }
+    ]
+  },
+  "meta_b": {
+    "name": "net/base/winsock_util.cc",
+    "content_type": "text/x-c",
+    "lines": 26,
+    "web_links": [
+      {
+        "name": "browse",
+        "url": "https://chromium.googlesource.com/chromium/src/+/refs/changes/66/3197866/3/net/base/winsock_util.cc",
+        "target": "_blank"
+      }
+    ]
+  },
+  "change_type": "MODIFIED",
+  "diff_header": [
+    "diff --git a/net/base/winsock_util.cc b/net/base/winsock_util.cc",
+    "index b66011e..d4e702c 100644",
+    "--- a/net/base/winsock_util.cc",
+    "+++ b/net/base/winsock_util.cc"
+  ],
+  "content": [
+    {
+      "ab": [
+        "// Copyright (c) 2011 The Chromium Authors. All rights reserved.",
+        "// Use of this source code is governed by a BSD-style license that can be",
+        "// found in the LICENSE file.",
+        "",
+        "#include \"net/base/winsock_util.h\"",
+        "",
+        "#include \"base/check_op.h\"",
+        "",
+        "namespace net {",
+        "",
+        "void AssertEventNotSignaled(WSAEVENT hEvent) {",
+        "  DWORD wait_rv = WaitForSingleObject(hEvent, 0);",
+        "  DCHECK_EQ(wait_rv, static_cast<DWORD>(WAIT_TIMEOUT));",
+        "}",
+        "",
+        "bool ResetEventIfSignaled(WSAEVENT hEvent) {",
+        "  DWORD wait_rv = WaitForSingleObject(hEvent, 0);",
+        "  if (wait_rv == WAIT_TIMEOUT)",
+        "    return false;  // The event object is not signaled.",
+        "  DCHECK_EQ(wait_rv, static_cast<DWORD>(WAIT_OBJECT_0));"
+      ]
+    },
+    {
+      "a": ["  BOOL ok = WSAResetEvent(hEvent);", "  DCHECK(ok);"],
+      "b": ["  DCHECK(WSAResetEvent(hEvent));"]
+    },
+    {
+      "ab": ["  return true;", "}", "", "}  // namespace net", ""]
+    }
+  ]
+}
