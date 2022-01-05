@@ -15,6 +15,8 @@ try_trace/3.masking/masked_files/
 .DS_Store
 crawl_db.sqlite3
 code2seq/
+code2seq_pytorch/
+code2seq_prototype/
 2.code2seq/original_data/
 2.code2seq/__pycache__/
 2.code2seq/1.cleaned_prev_data/

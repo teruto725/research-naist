@@ -60,9 +60,19 @@ render.py が怪しい（179 行目）
 
 もう少しライブラリ厳選をしたほうが良さそう
 
-pytorch: https://github.com/JetBrains-Research/code2seq/blob/master/code2seq/data/path_context_dataset.py
+pytorch: https://github.com/JetBrains-Research/code2seq
 
 一回脳死でこの pytorch 回したほうがいいかも
+
+pytorch pip install した
+
+一旦普通に回しておく
+
+small-java で回してみる
+
+エラーである。github でも同じエラーが issue にある。
+
+tensor2.x で動く方を試してみる。:https://github.com/Kolkir/code2seq
 
 # パターン２のトライ
 
