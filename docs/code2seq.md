@@ -91,6 +91,8 @@ get|timestamp override,Nm0|MarkerExpr|Mth|Prim1,long override,Nm0|MarkerExpr|Mth
 
 reader.py の process_dataset が各データに対して処理しているっぽい
 
+ラベル行方不明問題
+
 # パターン２のトライ
 
 openMNT にうまく組み込む必要がある。
