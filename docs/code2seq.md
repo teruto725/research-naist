@@ -74,6 +74,23 @@ small-java で回してみる
 
 tensor2.x で動く方を試してみる。:https://github.com/Kolkir/code2seq
 
+依存ライブラリとして cppminer を試す必要があるみたい。環境構築方法が書かれてないんですが...: https://github.com/Kolkir/cppminer
+
+cppminer は C++から code2seq 五感のデータセットを作成してくれるらしい。
+
+submodule のインポートで解決した
+
+次に usageError が出た。
+
+ここで実は test.c2s の中身が見れることに気づく
+get|timestamp override,Nm0|MarkerExpr|Mth|Prim1,long override,Nm0|MarkerExpr|Mth|Nm2,METHOD_NAME long,Prim1|Mth|Nm2,METHOD_NAME long,Prim1|Mth|Bk|Ret|Nm0,timestamp METHOD_NAME,Nm2|Mth|Bk|Ret|Nm0,timestamp
+
+どうやらただの文字列だった。
+
+この情報からコードリーディングを再開
+
+reader.py の process_dataset が各データに対して処理しているっぽい
+
 # パターン２のトライ
 
 openMNT にうまく組み込む必要がある。
@@ -82,3 +99,5 @@ openMNT にうまく組み込む必要がある。
 # パターン 3 のトライ
 
 ぱっと探した感じは見つからず、ありそうな感じはするが...
+
+将来の目標として、ビジネスサイドからエンジニアサイドまで横断的に関わることでプロダクト・サービスを大きくできるエンジニアになりたいと考えています。
