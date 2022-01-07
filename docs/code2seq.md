@@ -35,8 +35,9 @@ else:
 現状考えられるパターンは以下の通り
 
 1. code_review 元データ(raw_data_splitted)を code2seq の preprocessing から処理していき結果を出すパターン
-2. code2seq で中間表現だけ抽出してそれを特徴量として code_review 手法に付け加える手法
-3. code2code している論文を探してそのモデルをパクる
+1. code_review 元データ(raw_data_splitted)から直接、c2s ファイルを作成し、モデルに投げるパターン
+1. code2seq で中間表現だけ抽出してそれを特徴量として code_review 手法に付け加える手法
+1. code2code している論文を探してそのモデルをパクる
 
 # パターン 1 のトライ
 
